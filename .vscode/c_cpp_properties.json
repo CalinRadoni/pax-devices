@@ -1,0 +1,29 @@
+{
+    "env" : {
+        "esp-idf-path": "${env:HOME}/esp/esp-idf",
+        "codeLib-path": "${env:CodeLib_PATH}",
+        "compiler-path": "${env:HOME}/.espressif/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin"
+    },
+    "configurations": [
+        {
+            "name": "Linux",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "${compiler-path}/xtensa-esp32-elf-g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "defines": [ "ESP32", "ESP_PLATFORM" ],
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/main",
+                "${workspaceFolder}/components/**",
+                "${codeLib-path}/Generic",
+                "${codeLib-path}/ESP32",
+                "${esp-idf-path}/components/**"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false
+            }
+        }
+    ],
+    "version": 4
+}

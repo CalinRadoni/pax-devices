@@ -1,0 +1,11 @@
+# ignore archives
+*.7z
+*.zip
+
+# ignore Atollic TrueSTUDIO's .metadata and workspaces
+.metadata/
+_workspace*/
+
+# ignore Visual Studio Code's workspace files
+*.code-workspace
+
