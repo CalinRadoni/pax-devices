@@ -1,20 +1,36 @@
-.. pax-devices Documentation documentation master file, created by
-   sphinx-quickstart on Thu Feb 20 22:29:51 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+===============================================================================
+pax-devices
+===============================================================================
 
-Welcome to pax-devices Documentation's documentation!
-=====================================================
+This is the documentation for ``pax-devices``.
+
+.. list-table::
+    :widths: 25 25 25 25
+
+    * - :doc:`pax-Gateway <pax-Gateway/index>`
+      - :doc:`pax-DLED <pax-DLED/index>`
+      - :doc:`pax-DLEDGrid <pax-DLEDGrid/index>`
+      - 
+    * - :doc:`ESP32DLEDController <ESP32DLEDController/index>`
+      - :doc:`ESP32RMT <ESP32RMT/index>`
+      - :doc:`ESP32SimpleOTA <ESP32SimpleOTA/index>`
+      - :doc:`ESP32Timers <ESP32Timers/index>`
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :hidden:
 
-
+    pax-Gateway <pax-Gateway/index>
+    pax-DLED <pax-DLED/index>
+    pax-DLEDGrid <pax-DLEDGrid/index>
+    ESP32 Development <Development/index>
+    Doc Development <DocDevelopment/index>
+    ESP32DLEDController <ESP32DLEDController/index>
+    ESP32RMT <ESP32RMT/index>
+    ESP32SimpleOTA <ESP32SimpleOTA/index>
+    ESP32Timers <ESP32Timers/index>
 
 Indices and tables
-==================
+===============================================================================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`

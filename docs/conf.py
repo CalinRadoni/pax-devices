@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'pax-devices Documentation'
+project = 'pax-devices'
 copyright = '2020, Calin Radoni'
 author = 'Calin Radoni'
 
 # The short X.Y version
-version = ''
+version = '0.1'
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = 'not yet'
 
 
 # -- General configuration ---------------------------------------------------
