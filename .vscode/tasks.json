@@ -3,10 +3,7 @@
     "linux": {
         "type": "shell",
         "options": {
-            "cwd": "${workspaceFolder}",
-            "env": {
-                "idf_py": "${env:HOME}/esp/esp-idf/tools/idf.py"
-            }
+            "cwd": "${workspaceFolder}"
         },
         "presentation": {
             "echo": true,
@@ -20,49 +17,13 @@
     "problemMatcher": {},
     "tasks": [
         {
-            "label": "ESP-IDF Build",
-            "command": "$idf_py",
-            "args": [ "build" ],
+            "label": "Build HTML",
+            "command": "make",
+            "args": [ "html" ],
             "group": "build",
-            "problemMatcher": {
-                "base": "$gcc",
-                "fileLocation": ["relative", "${workspaceFolder}/SW"]
+            "options": {
+                "cwd": "${workspaceFolder}/docs"
             }
-        },
-        {
-            "label": "ESP-IDF Clean",
-            "command": "$idf_py",
-            "args": [ "clean" ]
-        },
-        {
-            "label": "ESP-IDF Flash",
-            "command": "$idf_py",
-            "args": [ "-p", "/dev/ttyUSB0", "flash" ],
-        },
-        {
-            "label": "ESP-IDF Monitor",
-            "command": "$idf_py",
-            "args": [ "-p", "/dev/ttyUSB0", "monitor" ],
-        },
-        {
-            "label": "ESP-IDF MenuConfig",
-            "command": "$idf_py",
-            "args": [ "menuconfig" ]
-        },
-        {
-            "label": "ESP-IDF Build partition table",
-            "command": "$idf_py",
-            "args": [ "partition_table" ]
-        },
-        {
-            "label": "ESP-IDF Flash partition table",
-            "command": "$idf_py",
-            "args": [ "partition_table-flash" ]
-        },
-        {
-            "label": "ESP-IDF Size informations",
-            "command": "$idf_py",
-            "args": [ "size-components" ]
         }
     ]
 }
