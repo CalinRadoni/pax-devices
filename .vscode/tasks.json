@@ -14,7 +14,7 @@
             "clear": false
         },
     },
-    "problemMatcher": {},
+    "problemMatcher": [],
     "tasks": [
         {
             "label": "Build HTML",
