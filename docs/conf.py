@@ -24,9 +24,9 @@ copyright = '2020, Calin Radoni'
 author = 'Calin Radoni'
 
 # The short X.Y version
-version = '0.1'
+version = '1.0'
 # The full version, including alpha/beta/rc tags
-release = 'not yet'
+release = '1.0 2020.02.22'
 
 
 # -- General configuration ---------------------------------------------------

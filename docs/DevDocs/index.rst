@@ -1,5 +1,5 @@
 ===============================================================================
-Documentation Development
+Development of this documentation
 ===============================================================================
 
 This documentation is created with `Sphinx <https://www.sphinx-doc.org>`_ .

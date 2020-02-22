@@ -1,5 +1,5 @@
 ===============================================================================
-Development
+Development for ESP32-based pax-devices
 ===============================================================================
 
 This document specifies the development configuration ESP32 based pax-devices

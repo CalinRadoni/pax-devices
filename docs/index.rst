@@ -22,8 +22,8 @@ This is the documentation for ``pax-devices``.
     pax-Gateway <pax-Gateway/index>
     pax-DLED <pax-DLED/index>
     pax-DLEDGrid <pax-DLEDGrid/index>
-    ESP32 Development <Development/index>
-    Doc Development <DocDevelopment/index>
+    Development for ESP32<DevESP32/index>
+    Development of documentation<DevDocs/index>
     ESP32DLEDController <ESP32DLEDController/index>
     ESP32RMT <ESP32RMT/index>
     ESP32SimpleOTA <ESP32SimpleOTA/index>
