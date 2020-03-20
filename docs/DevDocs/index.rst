@@ -55,7 +55,7 @@ Building from terminal
 
 To build it run :command:`make html` in project's :file:`docs` directory.
 
-Building from Visual Studio code
+Building from Visual Studio Code
 -------------------------------------------------------------------------------
 
 In project's root directory create the :file:`.vscode/tasks.json` file with the following content:
@@ -92,4 +92,27 @@ In project's root directory create the :file:`.vscode/tasks.json` file with the 
         ]
     }
 
-To create HTML files use :kbd:`Control-Shift-B` and select :menuselection:`Build HTML pax-devices` option.
+To create HTML files use :kbd:`Ctrl+Shift+B` and select :menuselection:`Build HTML pax-devices` option.
+
+Preview from Visual Studio Code
+-------------------------------------------------------------------------------
+
+In Visual Studio Code install :samp:`lextudio.restructuredtext` extension 
+(`GitHub repository <https://github.com/vscode-restructuredtext/vscode-restructuredtext>`_ 
+and `Documentation <https://docs.restructuredtext.net/articles/index.html>`_).
+
+In Debian install :samp:`rstcheck` linter with ``sudo python3 -m pip install rstcheck`` .
+
+Create :file:`.vscode/settings.json` with the following content:
+
+.. code-block:: json
+
+    {
+        "restructuredtext.builtDocumentationPath": "${workspaceRoot}/docs/_build/html",
+        "restructuredtext.confPath" :              "${workspaceFolder}/docs",
+        "restructuredtext.updateOnTextChanged":    "false",
+        "restructuredtext.updateDelay":            1000,
+        "restructuredtext.sphinxBuildPath":        "/usr/bin/sphinx-build"
+    }
+
+Use :kbd:`Ctrl+Shift+R` for preview.
