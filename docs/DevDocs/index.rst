@@ -112,7 +112,8 @@ Create :file:`.vscode/settings.json` with the following content:
         "restructuredtext.confPath" :              "${workspaceFolder}/docs",
         "restructuredtext.updateOnTextChanged":    "false",
         "restructuredtext.updateDelay":            1000,
-        "restructuredtext.sphinxBuildPath":        "/usr/bin/sphinx-build"
+        "restructuredtext.sphinxBuildPath":        "/usr/bin/sphinx-build",
+        "restructuredtext.linter.executablePath":  "/usr/local/bin/rstcheck"
     }
 
 Use :kbd:`Ctrl+Shift+R` for preview.

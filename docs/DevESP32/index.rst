@@ -79,7 +79,7 @@ The :file:`/data/Projects/pax-devices/pax-devices.code-workspace` file is:
             "recommendations": [
                 "ms-vscode.cpptools",
                 "editorconfig.editorconfig",
-                "tht13.rst-vscode",
+                "lextudio.restructuredtext",
                 "ms-python.python",
                 "gruntfuggly.todo-tree"
             ]
